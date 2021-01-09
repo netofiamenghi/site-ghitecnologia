@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Benza;
+    src: url('./../fonts/benza/Benza.otf');
+}
+
+.p-justificado {
+    text-align: justify;
+}
+
+.p-contato,
+.p-justificado,
+h2,
+h3 {
+    color: #655F9F;
+}
+
+.barra-topo {
+    background-color: #44A4B4;
+    color: #fff;
+}
+
+.logo-topo {
+    width: 13%;
+    margin: 7px;
+}
+
+.logo-rodape {
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.menu-topo,
+.ftco-footer {
+    background-color: #fff !important;
+}
+
+.menu-topo a,
+a:active,
+a:hover,
+a:link {
+    color: #655F9F !important;
+}
+
+.ftco-navbar-light.scrolled {
+    background-color: #fff !important;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta>a {
+    color: #44A4B4 !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+    color: #655F9F !important;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link span:before {
+    background: #655F9F;
+}
+
+.ftco-navbar-light.scrolled .nav-link.active {
+    color: #655F9F !important;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    color: #655F9F;
+}
+
+.ftco-footer .ftco-footer-widget p {
+    color: #44A4B4;
+}
+
+.ftco-footer .ftco-footer-widget ul li a {
+    color: #44A4B4;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #655F9F;
+}
+
+.block-23 ul li span {
+    color: #44A4B4;
+}
+
+.block-23 ul li .icon {
+    color: #655F9F;
+}
+
+.ftco-footer-social li a {
+    background: #655F9F;
+    color: #44A4B4;
+}
+
+.ftco-footer p {
+    color: #655F9F;
+}
+
+.ftco-footer a {
+    color: #44A4B4;
+}
+
+.ftco-footer-social li a span {
+    color: #fff !important;
+}
+
+.btn.btn-secondary {
+    background: #44A4B4 !important;
+    border: 1px solid #102137 !important;
+    color: #fff !important;
+}
+
+.btn.btn-secondary:hover {
+    border: 1px solid #44A4B4 !important;
+    background: #655F9F !important;
+    color: #fff !important;
+}
+
+.department-wrap {
+    background: #fff;
+}
+
+.department-wrap .text {
+    color: #655F9F;
+}
+
+.department-wrap .text h3 a {
+    color: #655F9F;
+}
+
+.department-wrap .text .icon span {
+    color: #655F9F;
+    font-size: 40px;
+}
+
+.department-wrap:hover,
+.department-wrap:focus {
+    background: #44A4B4;
+}
+
+.department-wrap:hover .text,
+.department-wrap:focus .text {
+    color: #fff;
+}
+
+.department-wrap:hover .text h3 a,
+.department-wrap:focus .text h3 a {
+    color: #fff;
+}
+
+.department-wrap:hover .icon span,
+.department-wrap:focus .icon span {
+    color: #fff;
+}
+
+.slider-text .subheading {
+    color: #fff;
+}
+
+.slider-text h1 {
+    color: #fff;
+}
+
+.ftco-intro h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ftco-services-2 .services .icon span {
+    font-size: 45px;
+    color: #fff;
+}
+
+.ftco-services-2 .services .icon {
+    background: #655F9F;
+}
+
+.ftco-navbar-light.scrolled .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.resposta {
+    font-size: 2em;
+    font-weight: bold;
+    color: #655F9F;
+}
+
+.ftco-footer .overlay {
+    background: #fff !important;
+}
+
+.ftco-services-2 .services {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .ftco-navbar-light .container {
+        padding: 20px;
+    }
+    .logo-topo {
+        width: 15%;
+    }
+    .ftco-navbar-light .navbar-toggler {
+        color: #fff !important;
+    }
+    .ftco-services-2 .services .icon {
+        width: 65px;
+        height: 65px;
+    }
+    .ftco-services-2 .services .icon span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-topo {
+        width: 25%;
+    }
+}
